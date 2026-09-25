@@ -8,9 +8,9 @@ This is my first experience with self-hosting, picking parts for a server build,
 
 AI has been a huge helper throughout this project, from debugging issues to discovering great iOS client apps. I've been using Gemini 3 Pro heavily and it boosted both my productivity and learning by a mile. (don't trust any AI. think before doing anything significant! HAVE YOUR OWN HEAD)
 
-> Small update: I've started writing this repo more than a month ago, and I've changed my opinion on Gemini. It is far behind its compeditors. Codex 5.5 feels magical, but I think I will change my opinion many more times down the road.
+> Small update: I started writing this repo more than a month ago, and I've changed my opinion on Gemini. It is far behind its competitors. Codex 5.5 feels magical, but I think I will change my opinion many more times down the road.
 
-> Bigger update: the lab grew from one server into **two Proxmox nodes**. The first one stayed the "life" server (media, cloud, smart home), and the second one became a dedicated AI machine with a GPU for local LLM inference and agents. Also: proper VPN gateway, GPU passthrough gaming VM, backups, and Wake-on-LAN so the servers don't have to run 24/7.
+> Bigger update: the lab grew from one server into **two Proxmox nodes**. The first one stayed the "life" server (media, cloud, smart home), and the second one became a dedicated AI machine with a GPU for local LLM inference and agents. I also added a proper VPN gateway, a GPU passthrough gaming VM, backups, and Wake-on-LAN so the servers don't have to run 24/7.
 
 > September 2026 update: public websites moved off the home connection to a free Oracle Cloud ARM VM. I started encrypted offsite backups to Google Drive. Home Assistant got a local voice assistant built from an old OnePlus 5 and the RTX 3080. PVE2 now runs more agents than I can keep track of, which is why this README was two months behind.
 
@@ -110,7 +110,7 @@ Jellyfin uses Intel Quick Sync through the iGPU. It is honestly perfect for this
 
 ### musicarr: music streaming and downloads
 
-This is one of my favorite parts of the lab. Navidrome + good clients feels like a real streaming service, except I own the library and can organize it however I want. Just try doing your own music library, you will love it! talking from 200GB+ of flacs on my LAB.
+This is one of my favorite parts of the lab. Navidrome + good clients feels like a real streaming service, except I own the library and can organize it however I want. Try building your own music library, you will love it. Speaking from 200GB+ of FLACs in my lab.
 
 | Service | Description |
 |---|---|
@@ -431,7 +431,7 @@ This is probably more powerful than a first homelab needs, but I wanted headroom
 
 This repo is a public archive, not a copy-paste production guide. Some parts are opinionated, some are messy, and some exist because I wanted to learn by building instead of watching another 40-minute tutorial.
 
-Do not blindly trust AI, tutorials, or even this README. Think before running commands on your own server too, I've been screwed up so many times because of blindly listening to AI. Have your own head.
+Do not blindly trust AI, tutorials, or even this README. Think before running commands on your own server too, I've screwed up so many times by blindly listening to AI. Have your own head.
 
 <p align="center">
   <i>AI helped with refining and formatting this README, but the setup and notes are mine.</i>
